@@ -1,0 +1,58 @@
+.loading {
+  display:none
+}
+
+/* Reference palette for the meal-type tiles. */
+#categories-grid .category-card:nth-child(1) { background: #fff2f2 !important; border-color: #f4caca !important; }
+#categories-grid .category-card:nth-child(2) { background: #fffbea !important; border-color: #f1df98 !important; }
+#categories-grid .category-card:nth-child(3) { background: #fff2f6 !important; border-color: #edc8d7 !important; }
+#categories-grid .category-card:nth-child(4) { background: #fff9e9 !important; border-color: #ebd69c !important; }
+#categories-grid .category-card:nth-child(5) { background: #f8fafc !important; border-color: #dce1e8 !important; }
+#categories-grid .category-card:nth-child(6) { background: #fffbea !important; border-color: #f1df98 !important; }
+#categories-grid .category-card:nth-child(7) { background: #fff2f2 !important; border-color: #f4caca !important; }
+#categories-grid .category-card:nth-child(8) { background: #eefaff !important; border-color: #c7e8f4 !important; }
+#categories-grid .category-card:nth-child(9) { background: #effcf5 !important; border-color: #bfe8d0 !important; }
+#categories-grid .category-card:nth-child(10) { background: #edffff !important; border-color: #bce8e6 !important; }
+#categories-grid .category-card:nth-child(11) { background: #effbf3 !important; border-color: #c6e8d0 !important; }
+#categories-grid .category-card:nth-child(12) { background: #f8fceb !important; border-color: #dceca7 !important; }
+
+#categories-grid .category-card:nth-child(1) > div > div:first-child,
+#categories-grid .category-card:nth-child(7) > div > div:first-child { background: #ef4860 !important; }
+#categories-grid .category-card:nth-child(2) > div > div:first-child,
+#categories-grid .category-card:nth-child(4) > div > div:first-child { background: #f49b14 !important; }
+#categories-grid .category-card:nth-child(3) > div > div:first-child { background: #e83d7b !important; }
+#categories-grid .category-card:nth-child(5) > div > div:first-child { background: #9aa6b8 !important; }
+#categories-grid .category-card:nth-child(6) > div > div:first-child { background: #f5b507 !important; }
+#categories-grid .category-card:nth-child(8) > div > div:first-child { background: #32a9e6 !important; }
+#categories-grid .category-card:nth-child(9) > div > div:first-child { background: #49c68a !important; }
+#categories-grid .category-card:nth-child(10) > div > div:first-child { background: #39b8bf !important; }
+#categories-grid .category-card:nth-child(11) > div > div:first-child { background: #48c878 !important; }
+#categories-grid .category-card:nth-child(12) > div > div:first-child { background: #8dd448 !important; }
+
+/* Product category chips match the bright reference palette. */
+#product-categories .product-category-btn { border-radius: 10px; padding: 0.65rem 1.1rem; font-size: 1rem; font-weight: 600; color: white; white-space: nowrap; }
+#product-categories .product-cat-breakfast { background: #f59e0b; }
+#product-categories .product-cat-beverages { background: #3b82f6; }
+#product-categories .product-cat-snacks { background: #d946ef; }
+#product-categories .product-cat-dairy { background: #3b82f6; }
+#product-categories .product-cat-fruits { background: #ef4444; }
+#product-categories .product-cat-vegetables { background: #22c55e; }
+#product-categories .product-cat-breads { background: #f97316; }
+#product-categories .product-cat-meats { background: #ef4444; }
+#product-categories .product-cat-frozen { background: #06b6d4; }
+#product-categories .product-cat-sauces { background: #a855f7; }
+#foodlog-empty-actions { margin-top: 5rem; margin-bottom: 1.5rem; }
+#foodlog-empty-actions a { padding: 0.7rem 1.5rem; border-radius: 0.5rem; color: white; }
+#foodlog-empty-actions a:first-child { background: #10b981; }
+#foodlog-empty-actions a:last-child { background: #2563eb; }
+#foodlog-quick-actions { display: none; }
+.weekly-quick-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1.5rem; margin-bottom: 1.5rem; }
+.weekly-quick-stats > div { display: flex; align-items: center; gap: .75rem; background: #fff; border: 2px solid #e5e7eb; border-radius: .75rem; padding: 1rem; }
+.weekly-quick-stats i { width: 3rem; height: 3rem; display: grid; place-items: center; border-radius: .75rem; background: #d1fae5; color: #059669; font-size: 1.25rem; }
+.weekly-quick-stats > div:nth-child(2) i { background: #dbeafe; color: #2563eb; }
+.weekly-quick-stats > div:nth-child(3) i { background: #f3e8ff; color: #9333ea; }
+.weekly-quick-stats span { display: flex; flex-direction: column; }
+.weekly-quick-stats small { color: #6b7280; font-size: .875rem; }
+.weekly-quick-stats strong { color: #111827; font-size: 1.25rem; }
+#products-empty { margin-bottom: 1rem; }
+@media (max-width: 700px) { .weekly-quick-stats { grid-template-columns: 1fr; } }
